@@ -1,16 +1,10 @@
-# todo
+# To Do App
 
-A new Flutter project.
+Created a simple to do app that allows users to add new tasks, check off existing tasks, and remove tasks
 
-## Getting Started
+## Utilized
+Flutter and Dart programming language
+Hive for database
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Resources Used
+https://youtu.be/HQ_ytw58tC4?feature=shared
