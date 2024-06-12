@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:todo/home_page.dart';
+import 'package:todo/pages/home_page.dart';
+import 'package:todo/pages/login_page.dart';
 
 Future<void> main() async {
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: LoginPage(),
       theme: ThemeData(
         primaryColor: Colors.lightBlue[50],
         appBarTheme: AppBarTheme(color:Colors.lightBlue[50]),

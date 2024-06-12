@@ -18,13 +18,13 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
+    super.initState();
     // if first time in app
     if(_myBox.get("TODOLIST") == null){
       db.createInitialData();
     } else {
       db.loadData();
     }
-    super.initState();
   }
 
   //text controller
